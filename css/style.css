@@ -30,13 +30,15 @@ main{
     justify-content: center;
     gap: 10px; 
     border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 7px 7px 1px rgba(0, 0, 0, 1);
 }
 
 .Img{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    margin-top: -20px;
     margin-left: 15px;
     margin-right: 15px;
     padding: auto;
@@ -48,33 +50,88 @@ svg{
 .Learning{
     display: flex;
     background-color: var(--yellow);
-    border-radius: 10%;
-    color: var(--gray-950);
-    font-weight: 600;
-    font-size: 14px; 
-    padding: auto;
+    border-radius: 10%; 
+    padding:10px;
     margin-left: 15px;
     width: auto;
-    height: 40px;
+    height: 10px;
     align-items: center;
     justify-content: center;
+    margin-top: -15px;
 }
 
-h2{
+.Learning p{
+    color: var(--gray-950);
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Figtree', sans-serif;
+}
+
+.Fecha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    margin-top: -15px;
+}
+
+.Fecha p{
+    font-family: 'Figtree', sans-serif;
+    font-size: 14px;
+    color: var(--gray-500);
+    font-weight: 400;
+}
+
+.Secundario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+    margin-top: -15px;
+}
+
+.Secundario h1{
     font-weight: 800;
     font-size: 18px;
+    margin-top: 2px;
+}
+
+.Secundario p{
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--gray-500);
+    margin: -5px;
+    margin-left: auto;
 }
 .Nombre {
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    margin-top: -15px;
 }
 
 .Nombre img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
     margin-right: 10px;
+    margin-top: 20px;
 }
 
 .Nombre p {
     font-size: 16px;
+    margin-right: 10px;
+    margin-top: 30px;
 }
 
+
+.attribution{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
